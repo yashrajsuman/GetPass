@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "GatePass - Digital Outpass System",
   description: "A digital system for managing campus gate passes",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({ children }) {
